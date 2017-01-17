@@ -1,4 +1,4 @@
-//Filename: Project 5 -- Employee Data Display
+//Filename: Project 5 -- Employee Database Display
 //Programmer:  Pooja Gajjar                                        CSCI 123
 //Project #5                                                       Instructor:  Timothy Mai
 
@@ -742,7 +742,7 @@ void Quit(CEmployee employee[], CTimeCard timeCards[], CEmployeePayroll payroll[
 double generateMeritRate(void)
 {
 	/* pick a random number from 0 to 500 and
-	get the percentage between 0.0 – 5.0 */
+	get the percentage between 0.0 Â– 5.0 */
 	return (((rand() % 501)) / 100.00);
 }
 
